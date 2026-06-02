@@ -1,0 +1,41 @@
+.manage-content {
+  flex: 1;
+  padding: 40px;
+  background: #f8fafc;
+}
+
+.manage-content h1 {
+  color: #1e3a8a;
+  margin-bottom: 30px;
+}
+
+.users-table {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+th {
+  color: #1e3a8a;
+}
+
+td button {
+  padding: 10px 16px;
+  background: #dc2626;
+  color: white;
+  border-radius: 8px;
+}

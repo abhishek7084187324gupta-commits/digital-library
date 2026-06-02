@@ -1,0 +1,47 @@
+.request-page {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f8fafc;
+  padding: 40px 20px;
+}
+
+.request-box {
+  width: 100%;
+  max-width: 550px;
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.request-box h2 {
+  color: #1e3a8a;
+  margin-bottom: 25px;
+}
+
+.request-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.request-box input,
+.request-box textarea {
+  padding: 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+
+.request-box textarea {
+  min-height: 120px;
+}
+
+.request-box button {
+  padding: 14px;
+  background: #1e3a8a;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+}

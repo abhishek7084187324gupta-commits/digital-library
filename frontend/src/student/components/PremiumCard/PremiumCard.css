@@ -1,0 +1,89 @@
+.premium-card {
+  background: white;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  transition: 0.3s;
+  overflow: hidden;
+}
+
+.premium-card:hover {
+  transform: translateY(-6px);
+}
+
+.premium-cover {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+  background: #f8fafc;
+  border-radius: 12px;
+  margin-bottom: 18px;
+  padding: 8px;
+  display: block;
+}
+
+.premium-placeholder {
+  width: 100%;
+  height: 160px;
+  background: #f3f4f6;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6b7280;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.premium-card h3 {
+  color: #1e3a8a;
+  margin-bottom: 14px;
+  font-size: 20px;
+}
+
+.premium-card p {
+  margin-bottom: 10px;
+  color: #4b5563;
+  line-height: 1.5;
+}
+
+.desc {
+  min-height: 60px;
+}
+
+.preview-btn,
+.download-btn {
+  display: inline-block;
+  width: 100%;
+  margin-top: 12px;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.preview-btn:hover,
+.download-btn:hover {
+  opacity: 0.9;
+}
+
+.premium-card button {
+  width: 100%;
+  margin-top: 12px;
+  padding: 14px;
+  background: #7c3aed;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.premium-card button:hover {
+  opacity: 0.9;
+}

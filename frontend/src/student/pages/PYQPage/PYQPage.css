@@ -1,0 +1,15 @@
+.pyq-page {
+  padding: 50px 8%;
+  min-height: 80vh;
+}
+
+.pyq-page h1 {
+  color: #1e3a8a;
+  margin-bottom: 35px;
+}
+
+.pyq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
